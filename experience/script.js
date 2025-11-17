@@ -42,7 +42,6 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 // End of Tawk.to Live Chat
 
-
 // disable developer mode
 document.onkeydown = function(e) {
   if(e.keyCode == 123) {
@@ -66,10 +65,11 @@ document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
         document.title = "Experience | Minh Tú";
-        $("#favicon").attr("href","/assets/images/favicon.png");
+        // fix: relative path because experience/ is a subfolder
+        $("#favicon").attr("href","../assets/images/favicon.png");
     }
     else {
         document.title = "Come Back To Portfolio";
-        $("#favicon").attr("href","/assets/images/favhand.png");
+        $("#favicon").attr("href","../assets/images/favhand.png");
     }
 });
