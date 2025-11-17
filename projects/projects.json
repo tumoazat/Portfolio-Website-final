@@ -10,65 +10,34 @@
       "code": "https://github.com/tumoazat/Portfolio-Website-final.git"
     }
   },
-  
   {
-    "name": "Old Websites",
-    "desc": "Bestwebs & ColorCoder. Two Years old websites memories. Simple with basic features.",
-    "image": "oldsites",
+    "name": "Composey Website",
+    "desc": "Simple landing page website built using HTML, CSS, JavaScript and some JavaScript Libraries.",
+    "image": "composey",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://composey.netlify.app/",
+      "code": "https://github.com/jigar-sable/LGMVIP-WebDev"
     }
   },
   {
-    "name": "Resistor Color Codes",
-    "desc": "Simply provides the color codes of resistors. Calculation information and about resistors.",
-    "image": "resistercolor",
-    "category": "basicweb",
+    "name": "Webview App",
+    "desc": "It's an android app which uses web view component for displaying content. This app provides many different features.",
+    "image": "webviewapp",
+    "category": "android",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://github.com/jigar-sable/Android-Webview#webapp--android-webview-app",
+      "code": "https://github.com/jigar-sable/Android-Webview"
     }
   },
   {
-    "name": "KIA Info Website",
-    "desc": "Basic KIA webpage displays the info about seltos product range. Specs and Image Gallery.",
-    "image": "kiaweb",
-    "category": "basicweb",
+    "name": "PHP Banking Website",
+    "desc": "Basic Banking System based on PHP and MySQL database. Made with HTML, CSS, JavaScript and backend with PHP.",
+    "image": "tsfbank",
+    "category": "lamp",
     "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Burger Shop Dummy",
-    "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://tsfbank.rf.gd",
+      "code": "https://github.com/jigar-sable/TSF-Bank"
     }
   },
   {
