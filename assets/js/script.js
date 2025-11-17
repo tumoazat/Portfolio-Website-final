@@ -107,10 +107,27 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
+    // show first 10 non-android projects on index page
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+        // Use filename from JSON if provided (recommended to include extension and correct case).
+        // If JSON image value has no extension, default to .png
+        let imgFile = project.image || '';
+        imgFile = imgFile.trim();
+        if (imgFile === '') {
+            imgFile = 'portfolio.PNG'; // fallback placeholder name (ensure this exists)
+        } else if (!imgFile.includes('.')) {
+            imgFile = imgFile + '.png';
+        }
+        // Build img tag with a small onerror fallback:
+        // - First try the given imgFile
+        // - If that 404s, try replacing .png with .PNG (common case differences)
+        // - Finally fallback to portfolio.PNG placeholder
+        let imgTag = `<img draggable="false" src="./assets/images/projects/${imgFile}" alt="${project.name}"
+            onerror="if(!this.dataset.tried){ this.dataset.tried=1; this.src=this.src.replace('.png','.PNG'); } else { this.onerror=null; this.src='./assets/images/projects/portfolio.PNG'; }" />`;
+
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/${project.image}.png" alt="project" />
+      ${imgTag}
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
