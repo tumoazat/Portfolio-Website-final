@@ -2,7 +2,7 @@
   {
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "portfolio.PNG",
+    "image": "anhnen.PNG",
     "category": "basicweb",
     "links": {
       "view": "https://tumoazat.github.io/Portfolio-Website-final/",
@@ -16,7 +16,7 @@
     "category": "basicweb",
     "links": {
       "view": "https://composey.netlify.app/",
-      "code": "https://github.com/jigar-sable/LGMVIP-WebDev"
+      "code": "#"
     }
   },
   {
@@ -26,7 +26,7 @@
     "category": "android",
     "links": {
       "view": "https://github.com/jigar-sable/Android-Webview#webapp--android-webview-app",
-      "code": "https://github.com/jigar-sable/Android-Webview"
+      "code": "#"
     }
   },
   {
@@ -36,17 +36,8 @@
     "category": "lamp",
     "links": {
       "view": "https://tsfbank.rf.gd",
-      "code": "https://github.com/jigar-sable/TSF-Bank"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb.PNG",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
       "code": "#"
     }
-  }
+  },
+  
 ]
